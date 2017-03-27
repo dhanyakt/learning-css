@@ -1,0 +1,18 @@
+/* display: block; -- takes up the full width f the elements*/
+/* display: inline; -- takes only as much as need*/
+/* box-sizing: content-box; -- only includes width of the element*/
+
+* {
+    /* This includes the padding + border + width of the element*/
+    box-sizing: border-box;
+}
+
+header, h2 {
+    border: 1px solid black;
+    display: block;
+}
+
+p {
+    border: 1px solid red;
+    display: inline;
+}
